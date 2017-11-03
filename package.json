@@ -1,0 +1,12 @@
+{
+  "name": "http2demo",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "PORT=2121 node --expose-http2 server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
